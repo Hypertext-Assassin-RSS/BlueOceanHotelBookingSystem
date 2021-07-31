@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginWindowController">
+   <children>
+      <AnchorPane fx:id="context" prefHeight="720.0" prefWidth="1280.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="76.0" prefWidth="1280.0" style="-fx-background-color: #4834d4;" text="Blue Ocean Hotel" textFill="WHITE">
+         <font>
+            <Font name="Iskoola Pota" size="46.0" />
+         </font>
+      </Label>
+      <Text layoutX="437.0" layoutY="247.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="User">
+         <font>
+            <Font name="Iskoola Pota" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="436.0" layoutY="355.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Iskoola Pota" size="30.0" />
+         </font>
+      </Text>
+      <TextField layoutX="583.0" layoutY="219.0" opacity="0.61" prefHeight="36.0" prefWidth="252.0" promptText="User Name" style="-fx-background-color: #4834d4;">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <TextField accessibleRole="PASSWORD_FIELD" layoutX="583.0" layoutY="327.0" opacity="0.61" prefHeight="36.0" prefWidth="252.0" promptText="Password" style="-fx-background-color: #4834d4;">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Button layoutX="583.0" layoutY="471.0" mnemonicParsing="false" style="-fx-background-color: #2ecc71;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Iskoola Pota" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button alignment="CENTER" layoutX="759.0" layoutY="471.0" mnemonicParsing="false" onAction="#openWindow2" style="-fx-background-color: #2ecc71;" text="Login" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Iskoola Pota" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

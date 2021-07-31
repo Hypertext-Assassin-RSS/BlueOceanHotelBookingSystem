@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerWindowController">
+   <children>
+      <AnchorPane layoutX="27.0" layoutY="34.0" prefHeight="227.0" prefWidth="449.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="449.0" style="-fx-background-color: #2ecc71;" text="RESERVATION DETAILS" textFill="WHITE" />
+            <AnchorPane fx:id="resde" prefHeight="227.0" prefWidth="449.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="27.0" layoutY="285.0" prefHeight="331.0" prefWidth="449.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <Label alignment="CENTER" layoutY="-6.0" prefHeight="33.0" prefWidth="449.0" style="-fx-background-color: #2ecc71;" text="BILING" textFill="WHITE" />
+            <AnchorPane fx:id="bilde" prefHeight="331.0" prefWidth="449.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="513.0" layoutY="34.0" prefHeight="572.0" prefWidth="736.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <Label alignment="CENTER" prefHeight="38.0" prefWidth="736.0" style="-fx-background-color: #2ecc71;" text="CUSTOMER DETAILS" textAlignment="CENTER" textFill="WHITE" />
+            <Text layoutX="45.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="N.I.C No" wrappingWidth="150.99999278783798">
+               <font>
+                  <Font name="Iskoola Pota" size="35.0" />
+               </font></Text>
+            <Text layoutX="45.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact No" wrappingWidth="178.9830715805292">
+               <font>
+                  <Font name="Iskoola Pota" size="35.0" />
+               </font></Text>
+            <Text layoutX="45.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email" wrappingWidth="90.99999941885471">
+               <font>
+                  <Font name="Iskoola Pota" size="35.0" />
+               </font></Text>
+            <Text layoutX="45.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="123.99998869746923">
+               <font>
+                  <Font name="Iskoola Pota" size="35.0" />
+               </font></Text>
+            <Text layoutX="45.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adress">
+               <font>
+                  <Font name="Iskoola Pota" size="35.0" />
+               </font></Text>
+            <TextField layoutX="421.0" layoutY="57.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="421.0" layoutY="145.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="421.0" layoutY="242.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="421.0" layoutY="333.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="421.0" layoutY="443.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <Button layoutX="-190.0" layoutY="-94.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="27.0" layoutY="635.0" mnemonicParsing="false" onAction="#openWindow3" prefHeight="59.0" prefWidth="201.0" style="-fx-background-color: #2ecc71;" text="AVAILABILITY " textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="1051.0" layoutY="635.0" mnemonicParsing="false" onAction="#openWindow5" prefHeight="59.0" prefWidth="201.0" style="-fx-background-color: #2ecc71;" text="CHECKOUT" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label layoutX="37.0" layoutY="-103.0" text="Label" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>

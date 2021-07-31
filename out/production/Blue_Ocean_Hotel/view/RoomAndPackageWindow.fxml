@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomAndPackageWindowController">
+   <children>
+      <AnchorPane layoutX="30.0" layoutY="34.0" prefHeight="210.0" prefWidth="162.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <Button layoutY="402.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="448.0" style="-fx-background-color: #30336b;" text="CHECK  DETAILS" textFill="WHITE" />
+            <Label alignment="CENTER" layoutY="-2.0" prefHeight="38.0" prefWidth="448.0" style="-fx-background-color: #2ecc71;" text="RESERVATION DETAILS" textAlignment="CENTER" textFill="WHITE" />
+            <Label alignment="CENTER" layoutX="118.0" layoutY="46.0" prefHeight="38.0" prefWidth="213.0" text="Check IN">
+               <font>
+                  <Font name="Iskoola Pota Bold" size="18.0" />
+               </font></Label>
+            <Label alignment="CENTER" layoutX="99.0" layoutY="274.0" prefHeight="38.0" prefWidth="250.0" text="Check OUT">
+               <font>
+                  <Font name="Iskoola Pota Bold" size="18.0" />
+               </font></Label>
+            <DatePicker layoutX="99.0" layoutY="320.0" prefHeight="48.0" prefWidth="250.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></DatePicker>
+            <DatePicker layoutX="99.0" layoutY="92.0" prefHeight="48.0" prefWidth="250.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </DatePicker>
+            <ComboBox fx:id="rmtp" layoutX="127.0" layoutY="212.0" prefHeight="38.0" prefWidth="194.0" promptText="Room Type" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="513.0" layoutY="34.0" prefHeight="572.0" prefWidth="736.0" style="-fx-background-color: #95afc0;">
+         <children>
+            <Label alignment="CENTER" prefHeight="38.0" prefWidth="736.0" style="-fx-background-color: #2ecc71;" text="ROOMS TYPE AND PACKAGES" textAlignment="CENTER" textFill="WHITE" />
+            <ImageView fitHeight="124.0" fitWidth="250.0" layoutX="6.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/download%20(2).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="164.0" fitWidth="250.0" layoutX="268.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/download%20(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="522.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images%20(1).jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="106.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Large">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="357.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mediam">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="598.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Small">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1051.0" layoutY="635.0" mnemonicParsing="false" onAction="#openWindow3" prefHeight="59.0" prefWidth="201.0" style="-fx-background-color: #2ecc71;" text="AVAILABILITY " textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
